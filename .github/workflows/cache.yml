@@ -20,4 +20,4 @@ jobs:
           key: cache-0269cb3
 
       - name: prime-cache-0269cb3
-        run: echo Cache hit: ${{ steps.cache.outputs.cache-hit }}
+        run: "echo Cache hit: ${{ steps.cache.outputs.cache-hit }}"
