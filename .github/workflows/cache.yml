@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,4 +21,5 @@ jobs:
           key: cache-0269cb3
 
       - name: prime-cache-0269cb3
-        run: "echo Cache hit: ${{ steps.cache.outputs.cache-hit }}"
+        run: |
+          echo "Cache hit: ${{ steps.cache.outputs.cache-hit }}"
