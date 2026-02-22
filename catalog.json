@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "email": "23f3004276@ds.study.iitm.ac.in",
+    "version": "bb246feb"
+  },
+  "products": [
+    {"id":1,"name":"Laptop Pro 15","category":"electronics","price":1299.99,"stock":5,"rating":4.5},
+    {"id":2,"name":"Smartphone X","category":"electronics","price":999.99,"stock":10,"rating":4.7},
+    {"id":3,"name":"Wireless Headphones","category":"electronics","price":199.99,"stock":20,"rating":4.3},
+    {"id":4,"name":"Smartwatch Series 5","category":"electronics","price":149.99,"stock":12,"rating":4.2},
+    {"id":5,"name":"Office Chair","category":"furniture","price":149.99,"stock":15,"rating":4.1},
+    {"id":6,"name":"Standing Desk","category":"furniture","price":299.99,"stock":7,"rating":4.4},
+    {"id":7,"name":"Coffee Table","category":"furniture","price":99.99,"stock":20,"rating":4.0},
+    {"id":8,"name":"Table Lamp","category":"furniture","price":39.99,"stock":30,"rating":4.3},
+    {"id":9,"name":"Yoga Mat","category":"fitness","price":29.99,"stock":50,"rating":4.6},
+    {"id":10,"name":"Dumbbell Set","category":"fitness","price":79.99,"stock":25,"rating":4.5},
+    {"id":11,"name":"Treadmill","category":"fitness","price":499.99,"stock":5,"rating":4.4},
+    {"id":12,"name":"Running Shoes","category":"fitness","price":89.99,"stock":40,"rating":4.7},
+    {"id":13,"name":"Cookware Set","category":"kitchen","price":129.99,"stock":10,"rating":4.3},
+    {"id":14,"name":"Blender","category":"kitchen","price":79.99,"stock":15,"rating":4.5},
+    {"id":15,"name":"Knife Set","category":"kitchen","price":49.99,"stock":25,"rating":4.6},
+    {"id":16,"name":"Toaster","category":"kitchen","price":29.99,"stock":30,"rating":4.2},
+    {"id":17,"name":"Microwave Oven","category":"kitchen","price":199.99,"stock":8,"rating":4.4}
+  ],
+  "aggregations": {
+    "electronics": {
+      "count": 4,
+      "inventoryValue": 38709.76
+    }
+  }
+}
