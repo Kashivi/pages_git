@@ -23,25 +23,25 @@
     { "id": "prod-bb246feb-017", "name": "Elite Item 17", "category": "books", "price": 175.61, "stock": 151, "rating": 2.9 }
   ],
   "aggregations": {
-    "electronics": {
-      "count": 4,
-      "inventoryValue": 38709.76
-    },
-    "clothing": {
-      "count": 6,
-      "inventoryValue": 340.21*92 + 484.72*108 + 420.83*23 + 339.76*129 + 443.54*193 + 354.85*122
-    },
-    "sports": {
-      "count": 2,
-      "inventoryValue": 65.13*15 + 142.06*81
-    },
-    "books": {
-      "count": 5,
-      "inventoryValue": 71.73*87 + 82.39*144 + 139.65*55 + 175.61*151
-    },
-    "home": {
-      "count": 1,
-      "inventoryValue": 27.14*47
-    }
+  "electronics": {
+    "count": 4,
+    "inventoryValue": 38709.76
+  },
+  "clothing": {
+    "count": 6,
+    "inventoryValue": 266052.13
+  },
+  "sports": {
+    "count": 2,
+    "inventoryValue": 12483.81
+  },
+  "books": {
+    "count": 4,
+    "inventoryValue": 52302.53
+  },
+  "home": {
+    "count": 1,
+    "inventoryValue": 1275.58
   }
+}
 }
